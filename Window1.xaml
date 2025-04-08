@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:приложение_1"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="505" Width="800">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -13,7 +13,12 @@
                 <GradientStop Color="#FF90DA3C" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox HorizontalAlignment="Center" Margin="0,149,0,0" TextWrapping="Wrap" Text="Всё получится" VerticalAlignment="Top" Width="335" Height="115" SelectionOpacity="2" FontSize="48"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,102,0,0" TextWrapping="Wrap" Text="Всё получится" VerticalAlignment="Top" Width="336" Height="115" SelectionOpacity="2" FontSize="48"/>
+        <Image HorizontalAlignment="Left" Height="170" Margin="232,279,0,0" VerticalAlignment="Top" Width="176" Source="/photo_2024-05-22_2.jpg">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/photo_2024-05-22_2.jpg" TileMode="FlipY"/>
+            </Image.OpacityMask>
+        </Image>
 
     </Grid>
 </Window>
